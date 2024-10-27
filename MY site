@@ -1,0 +1,338 @@
+HTML
+---------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enver Digital Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./Group 162475.png" alt="">
+        </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Our project</a></li>
+                <li><a href="#contact">About us</a></li>
+            </ul>
+            <a href="#" class="contact-btn">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Build Your Awesome Platform</h1>
+            <p>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, <br> we will provide the best service for those of you who use our services.</p>
+            <a href="#services" class="cta-btn">Our Services</a>
+        </div>
+        <div class="hero-image">
+            <img src="./Group 162532.png" alt="Person Image">
+        </div>
+    </section>
+
+    <section id="why-us">
+        <h2>Why Enver Is The Best Choice?</h2>
+        <p>With Enver’s services, you’ll get the top-notch understanding and execution that you deserve.</p>
+        <img src="./BG.png" alt="Team Discussion">
+    </section>
+
+    <section id="services">
+        <h2>The Service We Provide For You</h2>
+        <div class="services-grid">
+            <div class="service">
+                <div class="icon-container">
+                    <img src="./Icon.png" alt="Development Icon">
+                </div>
+                <h3>Development</h3>
+                <p>Create a platform with the best and coolest quality from us.</p>
+            </div>
+            <div class="service">
+                <div class="icon-container">
+                    <img src="./12.png" alt="UI/UX Designer Icon">
+                </div>
+                <h3>UI/UX Designer</h3>
+                <p>We provide UI/UX Design services, of course with the best quality.</p>
+            </div>
+            <div class="service">
+                <div class="icon-container">
+                    <img src="./3232.png" alt="Graphic Designer Icon">
+                </div>
+                <h3>Graphik Designer</h3>
+                <p>We provide Graphic Design services, with the best designers.</p>
+            </div>
+            <div class="service">
+                <div class="icon-container">
+                    <img src="./32324.png" alt="Motion Graphics Icon">
+                </div>
+                <h3>Motion Graphik</h3>
+                <p>Create a platform with the best and coolest quality from us.</p>
+            </div>
+            <div class="service">
+                <div class="icon-container">
+                    <img src="./2321.png" alt="Photography Icon">
+                </div>
+                <h3>Photography</h3>
+                <p>We provide Photography services, with the best quality.</p>
+            </div>
+            <div class="service">
+                <div class="icon-container">
+                    <img src="./3214.png" alt="Videography Icon">
+                </div>
+                <h3>Videography</h3>
+                <p>Create a platform with the best and coolest quality from us.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="portfolio">
+        <h2>Our Awesome Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="./Group 162508.png" alt="Portfolio Item 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="./Group 162510.png" alt="Portfolio Item 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="./image 28.png" alt="Portfolio Item 3">
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact us for the <br>service you want to use</h2>
+        <div class="contact-container">
+            <a href="#contact-us" class="contact-button">Contact us</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+            <p>© 2020 Enver, All Rights Reserved</p>
+            <nav>
+                <a href="#">Support</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+            </nav>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+
+
+CSS
+--------------------------------------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #111;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-btn {
+    background-color: #6C63FF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #151515;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#why-us {
+    text-align: center;
+    padding: 50px;
+    background-color: #222;
+}
+
+#services {
+    text-align: center;
+    padding: 50px;
+    background-color: #111;
+    color: white;
+}
+
+#services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.icon-container {
+    margin-bottom: 15px;
+}
+
+.icon-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.service h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+#portfolio {
+    text-align: center;
+    padding: 50px;
+    background-color: #111;
+    color: white;
+}
+
+#portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #000;
+    color: white;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.contact-button:hover {
+    background-color: #5148c9;
+}
+
+footer {
+    background-color: #111;
+    color: #888;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav a {
+    color: #888;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
